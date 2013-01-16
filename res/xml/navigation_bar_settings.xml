@@ -63,6 +63,12 @@
                         android:key="navigation_bar_width"
                         android:title="@string/navigation_bar_width_title"
                         android:summary="@string/navigation_bar_width_summary" />
+                        
+        <Preference
+            android:key="width_help"
+            android:enabled="false"
+            android:title="@string/navbar_width_help_title"
+            android:summary="@string/navbar_width_help_summary" />
 
         <com.xylon.settings.widgets.SeekBarPreference
             android:key="width_port"
